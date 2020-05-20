@@ -15,8 +15,8 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "testframework"
-  spec.version      = "1.0.2"
+  spec.name         = "TestFramework"
+  spec.version      = "1.0.3"
   spec.summary      = "A test of framework"
 
   # This description is used to generate tags and improve search results.
@@ -25,6 +25,9 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
+                      Features:
+                      1. Is self aware
+                      2. test framework.
                    DESC
 
   spec.homepage     = "https://github.com/shyann1218/TestFramework"
@@ -38,7 +41,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT (example)"
+  spec.license      = { :type => "MIT", :file => "LICENSE" }
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
